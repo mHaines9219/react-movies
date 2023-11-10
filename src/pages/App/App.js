@@ -24,14 +24,16 @@ function App() {
               path="/movies"
               element={<MovieListPage movies={moviesObject} />}
             />
-            <Route path="/actors" actorListPage={<ActorListPage />} />
+            <Route
+              path="/actors"
+              element={<ActorListPage movies={moviesObject} />}
+            />
             <Route path="/movies/:movieName" element={<MovieDetailPage />} />
           </Routes>{" "}
         </>
       ) : (
         <LoginPage setUser={setUser} />
       )}
-      YO
     </div>
   );
 }

@@ -1,12 +1,7 @@
 import { Link } from "react-router-dom";
 import MovieCard from "../../components/MovieCard/MovieCard";
 
-export default function MovieListPage({
-  movies,
-  moviePoster,
-  movieTitle,
-  movieReleaseDate,
-}) {
+export default function MovieListPage({ movies }) {
   return (
     <div>
       {movies.map((movie) => (
