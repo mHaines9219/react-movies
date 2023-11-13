@@ -16,3 +16,5 @@ export default function MovieListPage({ movies }) {
     </div>
   );
 }
+
+

@@ -6,7 +6,6 @@ import "./App.css";
 import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { movies } from "../../data.js";
-import MovieCard from "../../components/MovieCard/MovieCard.jsx";
 import MovieDetailPage from "../MovieDetailPage/MovieDetailPage.jsx";
 
 function App() {
